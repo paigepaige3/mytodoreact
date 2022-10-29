@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-//below we import React Icons after `npm install react-icons`
-import { FaTrashAlt, FaEdit, FaWindowRestore } from 'react-icons/fa';
+import { FaTrashAlt, FaEdit} from 'react-icons/fa';
 import axios from 'axios';
 import CatEdit from './CatEdit';
 
@@ -41,8 +40,6 @@ export default function SingleCategory(props) {
                     />
                 )}
             </td>
-
-            {/* END OF EDIT UI */}
         </tr>
     );
 }

@@ -16,7 +16,6 @@ export default function SingleList(props) {
     }
   }
 
-  
   return (
     <div className='singleList col-md-5 m-4'>
           <div>
@@ -37,8 +36,7 @@ export default function SingleList(props) {
           </div>
         
         <h3>{props.List.name}</h3>
-            <p>{props.List.name}</p> 
-
+            <p>{props.List.name}</p>
     </div>
   )
 }
